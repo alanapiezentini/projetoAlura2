@@ -1,0 +1,74 @@
+.topo {
+
+    border-bottom: solid 3px blue;
+    padding: 1.8%;
+    display: flex;
+
+}
+
+header {
+
+    color: rgb(20, 110, 255);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    padding: 0.9%;
+
+}
+
+body {
+
+    color: white;
+    background-color: black;
+    margin: 0px;
+
+}
+
+.normal {
+
+    padding-top: 4% ;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto {
+
+    margin-right: 5%;
+
+}
+
+.normal2 {
+
+    padding-top: 6% ;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: left;
+
+}
+
+.texto2 {
+
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.videoImagens img {
+
+    height: 150px;
+
+    overflow-x: auto;
+
+    gap: 10px;
+
+    opacity: 0.5;
+
+}
+
+.videoImagens img:hover {
+
+    opacity: 1;
+    border: 2px solid blue;
+
+}
